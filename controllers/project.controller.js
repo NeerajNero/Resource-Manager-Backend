@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 import { Project } from "../models/Project.js";
 import { Assignment } from "../models/Assignment.js";
-import { User } from "../models/user.js";
+import { User } from "../models/User.js";
 /**
  * @desc    Get all projects
  * @route   GET /api/projects

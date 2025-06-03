@@ -1,7 +1,7 @@
 // backend/controllers/assignment.controller.js
 
 import { Assignment } from "../models/Assignment.js";
-import { User } from "../models/user.js";
+import { User } from "../models/User.js";
 import { Project } from "../models/Project.js";
 import mongoose from "mongoose";
 

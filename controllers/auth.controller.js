@@ -1,6 +1,6 @@
 // backend/controllers/auth.controller.js
 import jwt from "jsonwebtoken";
-import { User } from "../models/user.js";
+import { User } from "../models/User.js";
 
 // @desc    Log in user & get JWT
 // @route   POST /api/auth/login
