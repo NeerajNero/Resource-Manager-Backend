@@ -130,7 +130,7 @@ All data is persisted in MongoDB via Mongoose. Authentication is JWT‐based, wi
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/NeerajNero/Resource-Manager.git
+git clone https://github.com/NeerajNero/Resource-Manager-Backend.git
 cd resource‐manager
 
 # 2. Install server (backend) dependencies
