@@ -32,4 +32,4 @@ const assignmentSchema = new mongoose.Schema({
     }
 })
 
-export const Assignment = mongoose.model('Assignment', assignmentSchema)
+export const Assignment = mongoose.model('Assignment', assignmentSchema, "resourceManager-assignments")

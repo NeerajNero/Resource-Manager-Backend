@@ -36,4 +36,4 @@ const projectSchema = new mongoose.Schema({
     }
 })
 
-export const Project = mongoose.model('Project', projectSchema)
+export const Project = mongoose.model('Project', projectSchema, "resourceManager-projects")

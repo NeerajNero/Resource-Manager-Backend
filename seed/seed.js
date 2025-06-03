@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 
 // Import your models so we can use them
-import { User } from "../models/user.js";
+import { User } from "../models/User.js";
 import { Project } from "../models/Project.js";
 import { Assignment } from "../models/Assignment.js";
 
