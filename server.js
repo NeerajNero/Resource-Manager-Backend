@@ -11,7 +11,9 @@ import assignmentRoutes from './routes/assignment.routes.js'
 dotenv.config()
 const app = express()
 
-app.use(cors())
+app.use(cors({
+    origin: "https://resource-manager-frontend-phi.vercel.app"
+}))
 app.use(express.json())
 
 initializeDatabase()
